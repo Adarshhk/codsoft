@@ -1,0 +1,129 @@
+body{
+    scroll-behavior: smooth;
+    display: flex;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+}
+
+li button{
+    background: none;
+    border: none;
+    color: rgb(197, 194, 194);
+    font-size: 17px;
+}
+li button:hover{
+    background: none;
+    border: none;
+    color: rgb(197, 194, 194);
+    text-decoration: underline;
+} 
+.left-bar
+{
+    
+    position: fixed;
+    color: rgb(197, 194, 194);
+    font-size: 20px;
+    text-align: center;
+    width: 12%;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+.left-bar ul{
+    padding-top: 29vh;
+    padding-left: 0vh;
+}
+.left-bar li{
+    padding-top: 30px;
+}
+.main{
+
+    color: white;
+    margin-left: 150px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15%;
+    padding-left: 50px;
+    align-self: center;
+    /* height: 70vh; */
+    width: 100%;
+    background-color: rgb(55, 49, 49);
+}
+.main button{
+    padding: 12px 37px;
+    margin-top: 40px;
+    border: 1px solid blueviolet;
+    font-family:Verdana;
+    font-size: 14px;
+    color: blueviolet;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.main button:hover{
+    padding: 12px 37px;
+    margin-top: 40px;
+    font-weight: bold;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#front-end{
+    margin-top: 100px;
+}
+#projects{
+    margin-top: 30px;
+    font-size: 18px;
+
+}#projects a{
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 18px;
+}
+#school{
+    margin-top: 100px;
+    font-size: 18px;
+}
+#college{
+    margin-top: 150px;
+    font-size: 18px;
+}
+#links{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+}
+.skills{
+    padding-top: 10%;
+    font-weight: 100;
+    
+}
+.skills a{
+    padding-top: 50px;
+    color: rgb(202, 142, 30);
+    text-decoration: none;
+}
+.education{
+    margin-top: 100px;
+    font-weight: 100;
+}
+#links a{
+    margin-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: blueviolet;
+    text-decoration: none;
+}
+#links button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: blueviolet;
+    padding: 12px 194px;
+}
+.contact{
+    margin-top: 150px;
+    font-weight: 100;
+    height: 600px;
+}

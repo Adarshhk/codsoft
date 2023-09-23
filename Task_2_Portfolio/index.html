@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="left-bar">
+        <ul>
+            <li><button onclick="scrollToTop()">Home</button></li>
+            <li><button onclick="scrollToSkill()">My Skills</button></li>
+            <li><button onclick="scrollToEdu()">Education</button></li>
+            <li><button onclick="scrollToContact()">Contact</button></li>
+        </ul>
+    </div>
+    <div class="main">
+        <span style="font-size: 72px;">Hi,</span></br>
+        <span style="font-size: 72px;">I'm </span><span style="color: aquamarine; font-size: 72px">Adarsh</span>,</br>
+        <span style="font-size: 48px;">Computer Science Student</span></br>
+        <span style="font-family: 'Roboto Mono', monospace;font-size: 18px; color: blanchedalmond;">FRONT-END / DATA STRUCTURES</span>
+        </br>
+        <button onclick="scrollToContact()">Contact Me</button>
+        <div class="skills">
+            <p style="font-size: 72px;">Skills</p>
+            <div id="data-structures">
+                <span style="font-size: 34px;color: aquamarine;">Data Structures</span></br></br>
+                <span style="font-family: Arial, Helvetica, sans-serif;font-size: 18px; color: blanchedalmond;margin-top: 20px;">Solved 140+ DSA Problems on GeeksforGeeks. I use C++ Language to solve problems.</span>
+            </div>
+            <div id="front-end">
+                <span style="font-size: 34px;color: aquamarine;">Front-End Development</span></br></br>
+                <span style="font-family: Arial, Helvetica, sans-serif;font-size: 18px; color: blanchedalmond;margin-top: 20px;">Learning HTML , CSS and JavaScript to build front-end. Here are some projects : </span>
+                <div id="projects">
+                    <a href="https://adarshhk.github.io/Blackjack-game/">Spotify-Clone</a></br></br>
+                    <a href="https://adarshhk.github.io/Spotify-clone/">Blackjack Game</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="education">
+            <p style="font-size: 72px;">Education</p>
+            <div id="school">
+                <span style="font-size: 34px;color: aquamarine;">School</span></br></br>
+                <span style="font-family: Arial, Helvetica, sans-serif;font-size: 18px; color: blanchedalmond;margin-top: 20px;">Kendriya Vidyalaya No.1, Raipur (C.G)</span>
+            </div>
+            
+            <div id="college">
+                <span style="font-size: 34px;color: aquamarine;">College</span></br></br>
+                <span style="font-family: Arial, Helvetica, sans-serif;font-size: 18px; color: blanchedalmond;margin-top: 20px;">Shri Shankracharaya Technical Campus, Bhilai (C.G)</span>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p style="font-size: 72px;">Contact Me</p>
+            <div id="links">
+
+                <button style="padding: 12px 80px;"><a href="mailto:adarshkaushal14@gmail.com">Adarshkaushal14@gmail.com</a></button></br>
+                <button style="padding: 12px 185px;"><a href="https://linkedin.com/in/adarshkaushal14">LinkedIn</a></button></br>
+                <button><a href="https://github.com/Adarshhk">Github</a></button></br>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
